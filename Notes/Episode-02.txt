@@ -7,4 +7,42 @@
 
 3. Package.json is a configuration for npm
 
+4. There are different bundlers available. Web Pack, Parcel..etc.
+
+5. Two types of dependencies - Dev Dependencies, Normal Dependencies
+
+6. node modules is nothing but the code of the dependencies fetched using npm. Collection of dependencies
+
+7. Transitive Dependencies => React app dependes => Parcel => which depends on others
+
+8. It is important to keep package.json & package-lock.json in github. No need of node_modules because 
+    we can regenerate
+
+9. ^ => Minor changes, ~ => Major changes
+
+10. npm => installing the packages, npx => execute a package
+
+11. using CDN links to bring react into our app is not a recommended way insted install react as 
+    package using npm
+
+12. npx parcel index.html => Creates a server for our app
+
+13. Parcel
+    -- Dev Build
+    -- Local server
+    -- HMR => Hot Module Replacement => detects changes and refreshes the app
+    -- File watching algorithm written in c++
+    -- Caching => Faster builds
+    -- Image Optimization
+    -- Bundling
+    -- Compressing
+    -- Consistent Hashing
+    -- Code Splitting
+    -- Differential Bundling => to support older browsers
+    -- Diagnostics
+    -- Error Handling
+    -- HTTPS
+    -- Tree shaking => remove unused code
+    -- different dev and production bundle
+
 ######################################################
