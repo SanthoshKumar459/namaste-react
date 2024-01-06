@@ -1,0 +1,10 @@
+######################################################
+
+1. React itself not capable of making the app faster. There are lot of packages that need to be added
+    which makes the app production ready, faster and scalable
+
+2. npm manage packages but it does not stand for Node Package Manager
+
+3. Package.json is a configuration for npm
+
+######################################################
