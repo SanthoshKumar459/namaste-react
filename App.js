@@ -1,6 +1,31 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+// Components
+
+const Title = () => {
+  return (
+    <h1>Namaste React using JSX</h1>
+  )  
+};
+
+// Heading Component
+const HeadingComponent = () => {
+    return(
+    <div id="container">
+        <Title/>
+        <h1>Namaste React Functional Component</h1>
+    </div>
+    )
+};
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+console.log(root);
+root.render(<HeadingComponent />)
+
+
+
 /*
 * <div id = "parent">
 *   <div id = "child1">
@@ -20,6 +45,7 @@ import ReactDOM from "react-dom/client";
 *
 */
 
+/*
 const element = React.createElement(
                                         "div", {id : "parent"},
                                         [
@@ -63,10 +89,14 @@ console.log(element);
 
 const heading = React.createElement("h1", {id : "heading", xyz : "abc"}, "Hello World from React!.");
 
-//console.log(heading); // returns object
+console.log(heading); // returns object
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 console.log(root); // returns object
 
-root.render(element);
+// JSX
+const jsxheading = <h1>Nameste React from JSX</h1>
+console.log(jsxheading)
+
+root.render(jsxheading);*/

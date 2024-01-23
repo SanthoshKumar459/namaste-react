@@ -1,0 +1,10 @@
+Passing a prop to a component is similar to passing an arguement to a function
+
+Config driven UI means the UI will be controlled by config which comes from backend typically an API
+
+When looping over list of objects, it is recommended to use key (Unique Id). If for some reason dont' have
+unique Id then use index but that is not good practice.
+
+The purpose of using key attribute while looping is that if the object list is changed some new items
+added, some deleted then react will render only those objects only. Without key react will render all 
+the objects in the list

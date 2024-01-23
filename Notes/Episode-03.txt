@@ -1,0 +1,35 @@
+We can create different type of scripts for Dev, Production ready apps.
+
+Use package.json file => scripts section => create scripts.
+
+Example : "startdev" : "parcel index.html",
+    "startprd" : "parcel build index.html",
+
+    now use the command => npm run {startdev/startprd}
+
+ReactDOM.createRoot => Replaces the content
+
+jsx => html like  or xml like syntax to create react elements easily.jsx and react are two different things. we can create react apps
+without jsx also
+
+jsx => not html inside javascript
+
+React.createElement => React Element which is Object => renders as HTML Element
+
+JSX => Transpiled into React.createElement by the parcel babel => gives an object which is React element =>
+renders as HTML element.
+
+Attributes in JSX syntax follow camel Case.
+
+Two types of React Components
+1. Class Based Components => Old
+2. Functional Components => New
+
+Functional Components are nothing but plain javascript function that returns JSX. Always use the captial
+letter as component name in the beginning
+
+Component Composition => Composing one component into another component
+
+Syntax to render a Component => <ComponentName />
+
+JSX takes care of injection data i.e. it sanitizes the data. It prevents cross site scripting attacks
