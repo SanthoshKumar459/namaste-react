@@ -1,0 +1,28 @@
+Never ever keep hardcoded strings in a Component file. Create a folder with name utils and keep
+all the hardcoded strings in utils.js file.
+
+There are 2 types of export, import
+1. default (export/import) (single export from a file)
+    export default componentname
+    import componentname from "path"
+
+2. named(export/import) (Multiple exports from same file)
+    export const component/variable
+    import {component/variable} from  'path'
+
+we should not have default export twice
+
+React hook is normal javascript utility function given by react.
+Two important Hooks
+1. useState() => Super powerful state variables in React
+2. useEffect()
+
+How to Declare a state variable
+const [variableName, functionName] = useState([]);
+
+Whenever a state variable updates, react re-render the UI/Component
+
+How React update Component when state varaible changes => Reconsiliation Algorithm also known as React Fiber
+
+Virtual DOM is a represenation of Actual DOM. Virtual DOM is a nested object
+
